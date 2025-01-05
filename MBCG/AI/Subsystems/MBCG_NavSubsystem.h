@@ -27,7 +27,7 @@
 /**
  * This subsystem can be used separately for managing Navigation for NPC (best way to go, places to avoid etc) or in conjunction with MBCG_NPCAmbushAvaisionSubsystem.
  * 
- * Basic usage: SetDeathPlacements() to define the locations of higher costs, then SetDeathPlacements() to apply these high-cost location to the NavMesh.
+ * Basic usage: SetDeathPlacements() to define the locations of higher costs, then ApplyDeathPlacements() to apply these high-cost location to the NavMesh.
  */
 
 
