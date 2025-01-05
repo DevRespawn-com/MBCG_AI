@@ -1,0 +1,2 @@
+This repository contains functionality that enhances Unreal Engine AI. This is used in the following tutorials:
+- ["Applying Custom NavModifierVolume and NavArea_Obstacle With Different Costs During Game in Unreal Engine"](https://devrespawn.com/custom-navmodifiervolume-navarea_obstacle-with-different-costs-during-game-unreal-engine/)
