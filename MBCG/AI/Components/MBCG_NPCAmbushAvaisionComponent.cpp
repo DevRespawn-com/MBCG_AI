@@ -56,8 +56,10 @@ void UMBCG_NPCAmbushAvaisionComponent::HandleOwnerHealthChanged(ULyraHealthCompo
                 }
             }
 
+#if 0
             // UE_LOGFMT(LogUMBCG_NPCAmbushAvaisionComponent, Display, "Owner ({0}) was killed by insitgator's ({1}) attack, InstigatorPawn = {2} ", LyraCharacter->GetDebugName(LyraCharacter),
             // Instigator->GetDebugName(Instigator), AssociatedInstigatorPawn->GetDebugName(AssociatedInstigatorPawn));
+#endif
 
             NPCAmbushAvaisionSubsystem->RegisterNewAttack(             //
                 AssociatedInstigatorPawn->GetActorLocation(),          //
@@ -73,7 +75,6 @@ void UMBCG_NPCAmbushAvaisionComponent::BeginPlay()
 {
     Super::BeginPlay();
 
-    // WeakNPCAmbushAvaisionSubsystem = UGameInstance::GetSubsystem<UMBCG_NPCAmbushAvaisionSubsystem>(GetWorld()->GetGameInstance());
     NPCAmbushAvaisionSubsystem = GetWorld()->GetSubsystem<UMBCG_NPCAmbushAvaisionSubsystem>();
     check(NPCAmbushAvaisionSubsystem);
 
