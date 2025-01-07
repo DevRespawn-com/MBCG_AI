@@ -1,3 +1,3 @@
-This repository contains functionality that enhances Unreal Engine AI. This is used in the following tutorials:
+This repository contains functionality that enhances Unreal Engine AI. This is used in the following articles:
 - ["Custom Clustering Algorithm Defining Deadly Areas For NPC in Unreal Engine Game"](https://devrespawn.com/custom-clustering-algorithm-deadly-areas-npc-unreal-engine-game/)
 - ["Applying Custom NavModifierVolume and NavArea_Obstacle With Different Costs During Game in Unreal Engine"](https://devrespawn.com/custom-navmodifiervolume-navarea_obstacle-with-different-costs-during-game-unreal-engine/)
